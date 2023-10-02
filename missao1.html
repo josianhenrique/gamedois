@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -17,10 +17,18 @@
         }
 
         p {
-            color: aliceblue;
+            color: rgb(255, 194, 109);
             margin-top: 10px;
             text-align: center;
+            font-size: 40px;
+            font-family:'Courier New', Courier, monospace;
         }
+
+        ul{
+            color:rgb(139, 253, 255);
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          }
 
         img {
 
@@ -38,13 +46,12 @@
     -->
 
     <p></p>
-    <ul style="color: aliceblue;"> 
-        <a href="respmissao1.html"> <li>portal conceitual</li></a>
-       
-        <li>portal estrutural</li>
-        <li>portal essencial</li>
+    <ul>
+        <a href="respmissao1.html"><li>Portal Conceital</li></a>
+        
+        <li>Portal Estrutural</li>
+        <li>Portal Essencial</li>
     </ul>
-
 
     <div class="img-container">
 
@@ -56,6 +63,7 @@
     </div>
 
 
+
     <script>
         var canvas = document.getElementById("jogo")
         var context = canvas.getContext("2d")
@@ -65,7 +73,7 @@
 
         var mensagem = document.querySelector("p")
 
-        mensagem.innerHTML = `Missão 1 encontrar tags`
+        mensagem.innerHTML = `Missão 1 - Encontrar tags`
 
 
 

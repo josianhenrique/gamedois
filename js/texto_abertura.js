@@ -15,13 +15,5 @@ function inicio() {
         elementoTexto.textContent = textoOriginal
     }, atrasoDevagar);
 
-}
-
-function inicioavaliacao(){
-
-    alert("ola avalia")
-    console.log("ola avalia avalia no navegador")
-
-    inicio()
 
 }
