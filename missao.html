@@ -12,21 +12,134 @@
 
     <h1>Missão</h1>
     <form>
-        <label>título</label>
-        <input type="titulo" id="titulo"><br><br>
-        <label for="forca">Força</label>
-        <input list="forcas" name="forca" id="forca">
 
-        <datalist id="forcas">
-            <option value="forca 1">
-            <option value="forca 2">
-            <option value="forca 3">
-            <option value="forca 4">
-            <option value="forca 5">
-            <option value="forca 6">
+        <input list="niveisB" name="nbloom" id="nbloom" placeholder="Selecione o nível de Bloom">
 
+
+        <datalist id="Níveisb">
+            <option value="Memorizar">
+            <option value="Compreender">
+            <option value="Aplicar">
+            <option value="Analisar">
+            <option value="Criar">
+            <option value="Avaliar">
 
         </datalist>
+
+        <input size="40%" list="forcas" name="forca" placeholder="Selecione o Nivel de força">
+
+        <datalist id="forcas">
+            <option value="força 1">
+            <option value="força 2">
+            <option value="força 3">
+            <option value="força 4">
+            <option value="força 5">
+            <option value="força 6">
+
+        </datalist>
+
+        <input list="ntipos" name="Tipo" placeholder="Selecione o Tipo">
+
+        <datalist id="ntipos">
+            <option value="Conhecimento">
+            <option value="Habilidades">
+            <option value="Atitudes">
+
+        </datalist>
+
+        <input list="nverbos" name="verbo" placeholder="Selecione um verbo">
+
+        <datalist id="verbos">
+            <option value="Listar">
+            <option value="Relembrar">
+            <option value="Reconhecer">
+            <option value="Identificar">
+            <option value="Localizar">
+            <option value="Descrever">
+            <option value="Citar">
+
+        </datalist>
+
+        <input list="nComps" name="comp" placeholder="Selecione uma competência">
+
+        <datalist id="ncamps">
+            <option value="Listar">
+            <option value="Relembrar">
+            <option value="Reconhecer">
+            <option value="Identificar">
+            <option value="Localizar">
+            <option value="Descrever">
+            <option value="Citar">
+
+        </datalist>
+
+        <datalist id="ncamps">
+            <option value="Listar">
+            <option value="Relembrar">
+            <option value="Reconhecer">
+            <option value="Identificar">
+            <option value="Localizar">
+            <option value="Descrever">
+            <option value="Citar">
+
+        </datalist>
+
+        <input size="92" type="text" id="tmissao" placeholder="Digite o título da missão"> <br><br>
+        <input type="submit" value="Enviar">
+        <h3>Selecione as etapas da missao que deseja:</h3>
+
+        <table border="1">
+            <thead>
+
+
+                <tr>
+
+                    <th width="200">Intruçao</th>
+                    <th width="150">Tipo</th>
+                    <th width="150">Ponto</th>
+                    <th>Marque</th>
+
+                </tr>
+                <tr>
+
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td align="center"> <input type="checkbox"></td>
+                </tr>
+
+                <tr>
+
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td align="center"> <input type="checkbox"></td>
+                </tr>
+
+                <tr>
+
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td align="center"> <input type="checkbox"></td>
+                </tr>
+
+                <tr>
+
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td align="center"> <input type="checkbox"></td>
+                </tr>
+
+
+
+            </thead>
+
+
+        </table>
+
+        <br><input type="submit" value="cadastar"> <input type="reset" value="cancelar"> <br>
 
     </form>
 </body>
